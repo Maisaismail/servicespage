@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+}
+body{
+    min-height: 100vh;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+  font-style: normal;
+}
+nav{
+    
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+nav img{
+    display: flex;
+    justify-content:left;
+    padding: 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: grey;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+nav button{
+    top: 5px;
+    padding: 2em 2em;
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background: linear-gradient(#6fcfff,#1A05FF);
+    width: 120px;
+    padding: 5px;
+    border: none;
+    font-size: small;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+h4{
+    color: rgb(86, 86, 255);
+    text-align: center;
+    padding: 15px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+}
+.container{
+    background-color: white;
+    padding: 15px 9%;
+    padding-bottom: 100 px;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    gap: 20px;
+}
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgb(0, 0, 0,.2);
+    border-radius: 10px;
+    background: #0f4c81;
+    text-align: center;
+    padding: 50px 20px;
+}
+.container .box-container .box img{
+    height: 80px;
+}
+.container .box-container .box h3{
+    color: aliceblue;
+    font-size: 22px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.container .box-container .box p{
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.container .box-container .box .btn{
+    margin-top: 10px;
+    color: aliceblue;
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 25px;
+    font-weight: bold;
+}
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    transition-duration: 0.1s;
+}
+footer{
+    text-align: center;
+}
